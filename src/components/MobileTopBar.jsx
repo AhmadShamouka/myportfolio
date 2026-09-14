@@ -43,7 +43,7 @@ export function MobileTopBar({ active, onNav }) {
       <div className="mobile-topbar-row">
         <div className="mobile-topbar-identity">
           <div className="mobile-topbar-photo">
-            <img src="/portrait.png" alt="" />
+            <img src={`${import.meta.env.BASE_URL}portrait.png`} alt="" />
           </div>
           <div className="mobile-topbar-copy">
             <p className="mobile-topbar-name">{site.fullName}</p>

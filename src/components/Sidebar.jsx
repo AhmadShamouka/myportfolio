@@ -17,7 +17,7 @@ export function Sidebar({ active, onNav, visible }) {
             <p className="side-role">{site.role}</p>
           </div>
           <div className="side-photo" id="side-photo-slot">
-            <img src="/portrait.png" alt="" />
+            <img src={`${import.meta.env.BASE_URL}portrait.png`} alt="" />
           </div>
         </div>
         <p className="side-bio">{site.bio.line}</p>

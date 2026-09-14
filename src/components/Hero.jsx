@@ -140,7 +140,7 @@ export function Hero({ ready, setReady }) {
       </div>
 
       <div className="portrait" aria-hidden="true">
-        <img src="/portrait.png" alt="" />
+        <img src={`${import.meta.env.BASE_URL}portrait.png`} alt="" />
       </div>
 
       <IntroBio text={site.introBio} strong={site.introBioStrong} />

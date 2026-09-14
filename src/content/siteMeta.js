@@ -1,3 +1,5 @@
+import { asset } from "../lib/asset.js";
+
 /** Non-translated identity, links, and visual metadata. */
 export const siteMeta = {
   name: "Ahmad Shamouka",
@@ -61,7 +63,7 @@ export const siteMeta = {
       year: "2024",
       href: "https://github.com/AhmadShamouka",
       tone: "blue",
-      video: "/videos/FlashMED-demo.mp4",
+      video: asset("videos/FlashMED-demo.mp4"),
     },
     {
       id: "02",
@@ -75,28 +77,28 @@ export const siteMeta = {
       year: "2023",
       href: "https://github.com/AhmadShamouka/loyality-reward-app",
       tone: "blue",
-      preview: "/work/loyality.png",
+      preview: asset("work/loyality.png"),
     },
     {
       id: "04",
       year: "2023",
       href: "https://thebrandfantasticator.com",
       tone: "white",
-      preview: "/work/brandfantasticator.png",
+      preview: asset("work/brandfantasticator.png"),
     },
     {
       id: "05",
       year: "2023",
       href: "https://mconceptco.com/?page_id=168",
       tone: "blue",
-      preview: "/work/mconceptco.png",
+      preview: asset("work/mconceptco.png"),
     },
     {
       id: "06",
       year: "2023",
       href: "https://github.com/AhmadShamouka/unreal",
       tone: "white",
-      preview: "/work/unrealfit.jpg",
+      preview: asset("work/unrealfit.jpg"),
     },
   ],
 };

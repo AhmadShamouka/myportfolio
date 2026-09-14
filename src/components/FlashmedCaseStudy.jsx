@@ -3,7 +3,7 @@ import { site } from "../content/site.js";
 import { flashmedErp } from "../content/flashmedErp.js";
 
 function shotSources(file) {
-  const base = `/case-studies/flashmed/${file}`;
+  const base = `${import.meta.env.BASE_URL}case-studies/flashmed/${file}`;
   return [
     `${base}.png`,
     `${base}.jpg`,
