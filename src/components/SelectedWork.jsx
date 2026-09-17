@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { useSite } from "../i18n/LocaleContext.jsx";
+import { asset } from "../lib/asset.js";
 
 function WorkCard({ item, onOpen, labels }) {
   const hasVideo = Boolean(item.video);
@@ -60,7 +61,7 @@ function WorkCard({ item, onOpen, labels }) {
             <>
               <img
                 className="work-preview-shot"
-                src={`${import.meta.env.BASE_URL}case-studies/flashmed/01-admin-home.png`}
+                src={asset("case-studies/flashmed/01-admin-home.png")}
                 alt=""
               />
               <span className="work-play-badge" aria-hidden="true">

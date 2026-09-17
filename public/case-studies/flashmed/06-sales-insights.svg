@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+  <defs>
+    <filter id="blur"><feGaussianBlur stdDeviation="4.5"/></filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0b1220"/><stop offset="100%" stop-color="#111827"/></linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1e293b"/><stop offset="100%" stop-color="#0f172a"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#60a5fa"/></linearGradient>
+  </defs>
+  <rect width="1440" height="900" fill="url(#bg)"/>
+  <rect x="0" y="0" width="220" height="900" fill="#020617"/>
+  <rect x="24" y="28" width="120" height="18" rx="4" fill="#3b82f6" opacity="0.9"/>
+  <rect x="24" y="70" width="160" height="10" rx="3" fill="#334155"/>
+  <rect x="24" y="100" width="140" height="10" rx="3" fill="#1e293b"/>
+  <rect x="24" y="130" width="150" height="10" rx="3" fill="#1e293b"/>
+  <rect x="24" y="160" width="130" height="10" rx="3" fill="#1e293b"/>
+  <rect x="24" y="190" width="145" height="10" rx="3" fill="#1e293b"/>
+  <rect x="24" y="220" width="120" height="10" rx="3" fill="#1e293b"/>
+  <rect x="220" y="0" width="1220" height="64" fill="#0f172a"/>
+  <text x="248" y="40" fill="#e2e8f0" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">Sales insights · LB / SY / KSA</text>
+  <rect x="1180" y="20" width="200" height="24" rx="12" fill="#1e293b"/>
+  <g transform="translate(248,96)">
+      
+        <rect x="0" y="0" width="360" height="130" rx="14" fill="url(#card)" stroke="#334155"/>
+        <text x="24" y="40" fill="#94a3b8" font-family="Segoe UI, Arial" font-size="14">Lebanon</text>
+        <text x="24" y="88" fill="#93c5fd" font-family="Segoe UI, Arial" font-size="32" font-weight="800">$1.1M</text>
+      
+        <rect x="380" y="0" width="360" height="130" rx="14" fill="url(#card)" stroke="#334155"/>
+        <text x="404" y="40" fill="#94a3b8" font-family="Segoe UI, Arial" font-size="14">Syria</text>
+        <text x="404" y="88" fill="#93c5fd" font-family="Segoe UI, Arial" font-size="32" font-weight="800">$640K</text>
+      
+        <rect x="760" y="0" width="360" height="130" rx="14" fill="url(#card)" stroke="#334155"/>
+        <text x="784" y="40" fill="#94a3b8" font-family="Segoe UI, Arial" font-size="14">KSA</text>
+        <text x="784" y="88" fill="#93c5fd" font-family="Segoe UI, Arial" font-size="32" font-weight="800">$820K</text>
+      
+      <rect x="0" y="154" width="700" height="500" rx="16" fill="url(#card)" stroke="#334155"/>
+      <rect x="24" y="178" width="180" height="12" rx="3" fill="#64748b"/>
+      <rect x="60" y="340" width="48" height="180" rx="6" fill="url(#accent)" opacity="0.55"/><rect x="160" y="400" width="48" height="120" rx="6" fill="url(#accent)" opacity="0.6200000000000001"/><rect x="260" y="300" width="48" height="220" rx="6" fill="url(#accent)" opacity="0.6900000000000001"/><rect x="360" y="380" width="48" height="140" rx="6" fill="url(#accent)" opacity="0.76"/><rect x="460" y="320" width="48" height="200" rx="6" fill="url(#accent)" opacity="0.8300000000000001"/><rect x="560" y="360" width="48" height="160" rx="6" fill="url(#accent)" opacity="0.9000000000000001"/>
+      <rect x="724" y="154" width="396" height="500" rx="16" fill="url(#card)" stroke="#334155"/>
+      <rect x="748" y="178" width="160" height="12" rx="3" fill="#64748b"/>
+      
+        <rect x="748" y="214" width="348" height="42" rx="8" fill="#020617"/>
+        <rect x="768" y="228" width="240" height="14" rx="4" fill="#94a3b8" filter="url(#blur)" opacity="0.85"/>
+        <rect x="1020" y="226" width="50" height="14" rx="4" fill="#3b82f6" opacity="0.7"/>
+      
+        <rect x="748" y="269" width="348" height="42" rx="8" fill="#020617"/>
+        <rect x="768" y="283" width="240" height="14" rx="4" fill="#94a3b8" filter="url(#blur)" opacity="0.85"/>
+        <rect x="1020" y="281" width="50" height="14" rx="4" fill="#3b82f6" opacity="0.7"/>
+      
+        <rect x="748" y="324" width="348" height="42" rx="8" fill="#020617"/>
+        <rect x="768" y="338" width="240" height="14" rx="4" fill="#94a3b8" filter="url(#blur)" opacity="0.85"/>
+        <rect x="1020" y="336" width="50" height="14" rx="4" fill="#3b82f6" opacity="0.7"/>
+      
+        <rect x="748" y="379" width="348" height="42" rx="8" fill="#020617"/>
+        <rect x="768" y="393" width="240" height="14" rx="4" fill="#94a3b8" filter="url(#blur)" opacity="0.85"/>
+        <rect x="1020" y="391" width="50" height="14" rx="4" fill="#3b82f6" opacity="0.7"/>
+      
+        <rect x="748" y="434" width="348" height="42" rx="8" fill="#020617"/>
+        <rect x="768" y="448" width="240" height="14" rx="4" fill="#94a3b8" filter="url(#blur)" opacity="0.85"/>
+        <rect x="1020" y="446" width="50" height="14" rx="4" fill="#3b82f6" opacity="0.7"/>
+      
+        <rect x="748" y="489" width="348" height="42" rx="8" fill="#020617"/>
+        <rect x="768" y="503" width="240" height="14" rx="4" fill="#94a3b8" filter="url(#blur)" opacity="0.85"/>
+        <rect x="1020" y="501" width="50" height="14" rx="4" fill="#3b82f6" opacity="0.7"/>
+      
+        <rect x="748" y="544" width="348" height="42" rx="8" fill="#020617"/>
+        <rect x="768" y="558" width="240" height="14" rx="4" fill="#94a3b8" filter="url(#blur)" opacity="0.85"/>
+        <rect x="1020" y="556" width="50" height="14" rx="4" fill="#3b82f6" opacity="0.7"/>
+      
+    </g>
+</svg>

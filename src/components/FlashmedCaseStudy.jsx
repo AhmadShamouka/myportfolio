@@ -1,16 +1,12 @@
 import { useEffect, useState } from "react";
 import { site } from "../content/site.js";
 import { flashmedErp } from "../content/flashmedErp.js";
+import { asset } from "../lib/asset.js";
 
 function shotSources(file) {
-  const base = `${import.meta.env.BASE_URL}case-studies/flashmed/${file}`;
-  return [
-    `${base}.png`,
-    `${base}.jpg`,
-    `${base}.webp`,
-    `${base}.jpeg`,
-    `${base}.svg`,
-  ];
+  return [".png", ".jpg", ".webp", ".jpeg", ".svg"].map((ext) =>
+    asset(`case-studies/flashmed/${file}${ext}`),
+  );
 }
 
 function ShotImage({ file, alt }) {
