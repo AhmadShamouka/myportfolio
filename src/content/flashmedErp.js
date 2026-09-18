@@ -66,5 +66,41 @@ export const flashmedErp = {
       built:
         "A salesman dashboard with per-rep cards for total sales, target, %, leads, hot leads, and remaining — filterable by year and month.",
     },
+    {
+      n: "07",
+      file: "07-tasks",
+      title: "Tasks by person and priority",
+      problem:
+        "Managers couldn’t see who was overloaded or which work was Hot versus Low without opening each queue.",
+      built:
+        "A tasks board with All / Completed totals and per-person cards broken into Low / Medium / High / Hot.",
+    },
+    {
+      n: "08",
+      file: "08-calendar",
+      title: "Team calendar across departments",
+      problem:
+        "Field visits and office work lived in chats and personal calendars, so conflicts showed up late.",
+      built:
+        "A shared month calendar filterable by user and department, with bilingual entries and overflow counts per day.",
+    },
+    {
+      n: "09",
+      file: "09-hr-home",
+      title: "HR home for leave and payroll",
+      problem:
+        "Leave status, payroll, and staff documents were scattered across separate screens.",
+      built:
+        "An HR home with On Leave / Pending / Approved tiles plus jumps into Payroll, Documents, Staff, and Internships.",
+    },
+    {
+      n: "10",
+      file: "10-repair-ai",
+      title: "Repair dashboard with AI analytics",
+      problem:
+        "Managers saw ticket counts, but not a quick read on each engineer’s completed vs pending work.",
+      built:
+        "A Repair Dashboard with ticket totals and per-engineer cards — View Jobs plus an AI Analytics action on the same performance data.",
+    },
   ],
 };
