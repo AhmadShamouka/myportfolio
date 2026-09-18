@@ -61,7 +61,7 @@ function WorkCard({ item, onOpen, labels }) {
             <>
               <img
                 className="work-preview-shot"
-                src={asset("case-studies/flashmed/01-admin-home.png")}
+                src={asset("case-studies/flashmed/01-home-modules.png")}
                 alt=""
               />
               <span className="work-play-badge" aria-hidden="true">

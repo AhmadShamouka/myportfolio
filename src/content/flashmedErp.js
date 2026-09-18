@@ -7,91 +7,64 @@ export const flashmedErp = {
   role: "Sole full-stack engineer",
   stack: ["Laravel", "MySQL", "Spatie permissions", "OpenAI", "Pusher", "WhatsApp"],
   summary:
-    "I customized Ultimate POS into FlashMed’s day-to-day ERP: selling machines and consumables, collecting installments, running field service, and reporting across three countries — plus a customer portal so clients can open and track service tickets themselves. The screens below are the parts I designed and shipped — not a tour of the stock product list.",
+    "I customized Ultimate POS into FlashMed’s day-to-day ERP: selling machines and consumables, collecting installments, running field service, and reporting across three countries — plus role dashboards and a customer-facing ticket flow. The screens below are the parts I designed and shipped.",
   replaceHint:
-    "Private production UI — money, sales figures, and phone numbers are redacted. No public URL.",
+    "Private production UI — money and sales figures are redacted. No public URL.",
   shots: [
     {
       n: "01",
-      file: "01-admin-home",
-      title: "A home screen that matches the job",
+      file: "01-home-modules",
+      title: "A home screen built around real work",
       problem:
-        "Leadership was bouncing between reports just to see how the year was going.",
+        "People landed on a generic POS home that didn’t match how FlashMed actually runs day to day.",
       built:
-        "An admin home with live totals, cash movement, and one-tap jumps into Technical, Accounting, Customer, and Sales dashboards.",
+        "A role home with pending/completed signals, engineer rating, and one-tap modules for Technical, Sales, Portal & Tickets, Finance, HR, and Customers.",
     },
     {
       n: "02",
-      file: "02-role-home",
-      title: "Same database, different dashboards",
+      file: "02-sales-home",
+      title: "Sales home for the people who sell",
       problem:
-        "A salesman and a field engineer do not share a job — but they were stuck on the same generic home.",
+        "Sales staff had to dig through stock menus for leads, quotations, payments, and delivery work.",
       built:
-        "Role homes with only the tiles that role needs — leads, quotations, payment schedule, receivables, service calls — on one permission layer.",
+        "A sales home with the tiles they use daily — Sales Analysis, Leads, Customers, Purchase Orders, Payment Schedules, bonuses, and quarter dashboards.",
     },
     {
       n: "03",
-      file: "03-payment-schedule",
-      images: ["03-payment-schedule", "03-payment-table"],
-      title: "Installments instead of a spreadsheet",
+      file: "03-add-quotation",
+      title: "Quotations with live product search",
       problem:
-        "Collections lived in side spreadsheets and chat threads while deals sold on payment plans.",
+        "Building a quote meant hunting products across lists and side sheets.",
       built:
-        "A payments hub with collection KPIs plus a schedule table for due, paid, remaining, and status — reminders stay on the same record.",
+        "An Add Quotation flow with Customer → Products → Discount steps and instant product search (price and stock shown on the same row).",
     },
     {
       n: "04",
-      file: "04-service-tickets",
-      title: "Repair system tickets",
+      file: "04-tickets-dashboard",
+      title: "Service tickets at a glance",
       problem:
-        "Maintenance, installation, and service-deal work mixed into one queue — engineers and managers could not see load by type.",
+        "Managers couldn’t see ticket load by status or region without opening each queue.",
       built:
-        "A Service Ticket board with Maintenance, Installation, and Service Deal columns — client, ticket number, status tags, and deal actions on each card.",
+        "A Service Tickets Dashboard with To Be Approved / Pending / Completed / Delayed cards, plus Central–East–West regional closing times.",
     },
     {
       n: "05",
-      file: "05-services-contract",
-      title: "Services contracts at a glance",
+      file: "05-maintenance-dashboard",
+      title: "Maintenance by status and region",
       problem:
-        "Contract end dates and remaining coverage lived outside the ERP, so renewals slipped until a machine failed.",
+        "Delayed maintenance was hard to spot until customers escalated.",
       built:
-        "A Services Contract board with per-client cards, end dates, and days remaining — plus Add to open a new contract from the same screen.",
+        "A maintenance board with status totals, a region chart (Pending / Delayed / To Be Approved), ratings, and PPM daily–weekly–monthly summary.",
     },
     {
       n: "06",
-      file: "06-sales-insights",
-      title: "Sales insights and three markets",
-      problem: "Managers asked for Excel every week to compare Lebanon, Syria, and KSA.",
-      built:
-        "Sales Insights for salesmen, categories, customers, and machines — with PDF/Excel export and combined three-market rollups.",
-    },
-    {
-      n: "07",
-      file: "07-tasks",
-      title: "Tasks by engineer and priority",
+      file: "06-salesman-insights",
+      images: ["06-salesman-insights", "06-salesman-insights-b"],
+      title: "Salesman targets and monthly pace",
       problem:
-        "Managers could not see who was overloaded or which work was Hot versus Low without opening each person’s queue.",
+        "Leadership asked for Excel every week to see who was on target and who had hot leads.",
       built:
-        "A tasks board with team totals by priority and per-engineer cards — Low / Medium / High / Hot — so load and urgency are visible in one screen.",
-    },
-    {
-      n: "08",
-      file: "08-ai-report",
-      title: "AI analysis for each engineer",
-      problem:
-        "Managers could see ticket counts, but not a written read on how each engineer was performing.",
-      built:
-        "Per-engineer performance cards with completed / pending breakdowns and an AI Analytics action that briefs from the same repair data.",
-    },
-    {
-      n: "09",
-      file: "09-portal-phone",
-      images: ["09-portal-phone", "09-portal-otp", "09-portal-requests"],
-      title: "Customer portal to apply for tickets",
-      problem:
-        "Customers called or WhatsApp’d to open a service ticket, so requests were slow to capture and hard for them to track.",
-      built:
-        "A bilingual customer portal: phone + OTP verification, then service request submit — plus My Requests so clients can follow job sheets and rate completed work.",
+        "A salesman dashboard with per-rep cards for total sales, target, %, leads, hot leads, and remaining — filterable by year and month.",
     },
   ],
 };
