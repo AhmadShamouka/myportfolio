@@ -69,38 +69,38 @@ export const flashmedErp = {
     {
       n: "07",
       file: "07-tasks",
-      title: "Tasks by person and priority",
+      title: "Tasks by engineer and priority",
       problem:
-        "Managers couldn’t see who was overloaded or which work was Hot versus Low without opening each queue.",
+        "Managers could not see who was overloaded or which work was Hot versus Low without opening each person’s queue.",
       built:
-        "A tasks board with All / Completed totals and per-person cards broken into Low / Medium / High / Hot.",
+        "A tasks board with All / Completed totals and per-engineer cards — Low / Medium / High / Hot — so load and urgency are visible in one screen.",
     },
     {
       n: "08",
       file: "08-calendar",
-      title: "Team calendar across departments",
+      title: "Team calendar across users and departments",
       problem:
-        "Field visits and office work lived in chats and personal calendars, so conflicts showed up late.",
+        "Service visits and appointments lived in chat threads, so clashes showed up only on the day.",
       built:
-        "A shared month calendar filterable by user and department, with bilingual entries and overflow counts per day.",
+        "A shared month calendar with filters for users and departments, so field work and meetings sit on one schedule.",
     },
     {
       n: "09",
       file: "09-hr-home",
-      title: "HR home for leave and payroll",
+      title: "HR home for leave, payroll, and staff files",
       problem:
-        "Leave status, payroll, and staff documents were scattered across separate screens.",
+        "Leave requests, payroll, and staff documents were split across tools HR had to check separately.",
       built:
-        "An HR home with On Leave / Pending / Approved tiles plus jumps into Payroll, Documents, Staff, and Internships.",
+        "An HR home with On Leave / Pending / Approved cards plus shortcuts into Payroll, Documents, Manage Staff, and Internships.",
     },
     {
       n: "10",
       file: "10-repair-ai",
       title: "Repair dashboard with AI analytics",
       problem:
-        "Managers saw ticket counts, but not a quick read on each engineer’s completed vs pending work.",
+        "Managers could see ticket counts, but not a quick read on each engineer’s completed vs pending work.",
       built:
-        "A Repair Dashboard with ticket totals and per-engineer cards — View Jobs plus an AI Analytics action on the same performance data.",
+        "A Repair Dashboard with ticket overview cards and per-engineer performance — View Jobs plus AI Analytics on the same repair data.",
     },
   ],
 };
